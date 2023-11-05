@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='mystyle.css') }}">
+    <script src="{{ url_for('static', filename='myscript.js') }}"></script>
+    <title>Lista koszulek</title>
+  </head>
+  <body>
+      <table id="mytable" class="table">
+         <thead>
+           <tr>
+             <th scope="col">ID</th>
+             <th scope="col">Color</th>
+             <th scope="col">Text</th>
+           </tr>
+         </thead>
+
+
+         <tbody>
+
+           {% for obj in results %}
+           <tr>
+             <td>{{obj.Id}}</td>
+             <td>{{obj.Color}}</td>
+             <td>{{obj.Design}}</td>
+           </tr>
+           {% endfor %}
+
+         </tbody>
+        </table>
+    </body>
+</html>
