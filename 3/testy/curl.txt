@@ -1,0 +1,5 @@
+Curl:
+PS C:\Users\Uliana> curl -X GET "http://localhost:5000/shirts" -H "accept: application/json"
+[{"Id": 1, "Color": "Silver", "Design": "Skill behind her international nation certain various"}, {"Id": 2, "Color": "Lime", "Design": "You major entire enjoy wait seat"}, {"Id": 3, "Color": "Blue", "Design": "Administration certain test reason"}, {"Id": 4, "Color": "Olive", "Design": "Table office nearly argue education eight believe"}, {"Id": 5, "Color": "Teal", "Design": "Decision contain prove cost company sing"}, {"Id": 6, "Color": "White", "Design": "Coach mission cold family treat"}, {"Id": 7, "Color": "White", "Design": "Yet lot bit some between"}, {"Id": 8, "Color": "Fuchsia", "Design": "Especially spring hospital be him at along"}, {"Id": 9, "Color": "Black", "Design": "Fine admit field good fish animal"}, {"Id": 10, "Color": "Green", "Design": "Wish could list record thank wide team return"}]
+PS C:\Users\Uliana>
+
